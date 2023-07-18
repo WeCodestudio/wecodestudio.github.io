@@ -3935,3 +3935,8 @@ input, select, textarea {
 			flex-wrap: wrap;
 			list-style-type: none;
 		}
+
+		.profile-image {
+			width: 460px;
+			height: 460px;
+		}

@@ -4076,6 +4076,7 @@ body.is-preload #sidebar nav ul li {
 	width: 200px;
 	height: 200px;
 	border-radius: 8px;
+	margin-bottom: 1.5em;
 
 }
 
@@ -4100,6 +4101,7 @@ body.is-preload #sidebar nav ul li {
 	height: 200px;
 	border-radius: 8px;
 
+
 }
 .section-f-p {
 
@@ -4110,12 +4112,9 @@ body.is-preload #sidebar nav ul li {
 
 	/* min-height: 100% */
 }
-.y-profile{
-	background-color: aqua;
+.f-profile.y{
+
+	margin-left: -3em;
 }
 
 /* Icons */
-
-
-
-

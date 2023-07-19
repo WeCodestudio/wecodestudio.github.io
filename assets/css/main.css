@@ -2107,19 +2107,19 @@ button:hover:active:after,
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	border-radius: 0.25em;
 	border: solid 1px rgba(255, 255, 255, 0.15);
 	background: rgba(255, 255, 255, 0.05);
 	margin: 0 0 2em 0;
-	width:100%;
+	/* width:100%; */
 }
 
 .features section {
-	padding: 3.5em 3em 1em 7em;
-	width: 30%;
-	 border-top: solid 1px rgba(255, 255, 255, 0.15);
-	border-left: solid 1px rgba(255, 255, 255, 0.15);
+	/* padding: 3.5em 2em 2em 7em; */
+
+	border-top: solid 1px rgba(255, 255, 255, 0.15);
+	/* border-left: solid 1px rgba(255, 255, 255, 0.15); */
 	position: relative;
 }
 
@@ -2127,9 +2127,9 @@ button:hover:active:after,
 	border-top-width: 0;
 }
 
-.features section:nth-child(2n) {
+/* .features section:nth-child(2n) {
 	border-left: solid 1px rgba(255, 255, 255, 0.15);
-}
+} */
 
 .features section .icon {
 	-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
@@ -4084,35 +4084,58 @@ body.is-preload #sidebar nav ul li {
 	/* background-color: #3e4094; */
 	min-width: 15vw;
 	display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    text-align: start;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	text-align: start;
 	font-size: 1em;
-	margin-left: -1em;
+	/* margin-left: -1em; */
 
 
 }
-.f-profile span{
-  margin-bottom: 1em;
+
+.f-profile span {
+	margin-bottom: 0.9em;
 }
-.f-image{
+
+.f-image {
 	width: 200px;
 	height: 200px;
 	border-radius: 8px;
 
 
 }
-.section-f-p {
 
-/* background-color: #ffffff;*/
-    display: flex;
-    justify-content: center;
+.f-s-1 {
+	width: 22.3vw;
+	padding: 3.5em 2em 4em 6em;
+	border-right: solid 1px rgba(255, 255, 255, 0.15);
+
+	/* background-color: #953d75; */
+}
+
+.f-s-2 {
+
+	width: 22.3vw;
+	padding: 3.5em 2em 4em 3em;
+	border-right: solid 1px rgba(255, 255, 255, 0.15);
+}
+
+.f-s-3 {
+	width: 12.7vw;
+	padding: 3.5em 2em 4em 3em;
+
+	margin-left: 5em;
+
+	/* background-color: #ffffff;*/
+	display: flex;
+	justify-content: center;
 	/* align-items: center; */
 
 	/* min-height: 100% */
 }
-.f-profile.y{
+
+.f-profile.y {
 
 	margin-left: -3em;
 }

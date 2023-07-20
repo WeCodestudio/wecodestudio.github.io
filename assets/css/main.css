@@ -4090,6 +4090,7 @@ body.is-preload #sidebar nav ul li {
 	flex-wrap: wrap;
 	list-style-type: none;
 	gap: 20px;
+	min-width: 60vw;
 }
 
 .profile-image {

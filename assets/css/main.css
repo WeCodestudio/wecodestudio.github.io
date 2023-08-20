@@ -931,7 +931,14 @@ hr.major {
 		padding-top: 3em;
 	}
 
+	.project-container {
+
+		margin-left: -1em;
+
+	}
+
 }
+
 
 @media screen and (max-width: 1280px) {
 
@@ -1419,6 +1426,24 @@ hr.major {
 
 	.row.gtr-200.gtr-uniform>* {
 		padding-top: 3em;
+	}
+
+	#get-touch {
+
+		display: flex;
+		flex-direction:column;
+		gap:1em;
+        justify-content: center;
+		align-items: center;
+
+	}
+	#get-touch .contact{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact .phone{
+		margin-left: -4em;
 	}
 
 }
@@ -2115,11 +2140,14 @@ button:hover:active:after,
 	min-width: 60vw;
 	/* width:100%; */
 }
-.f-s-1, .f-s-2, .f-s-3 {
-    flex: 1 1 0px;
-	padding:3.5em 2em 2em 3em;
 
-    /* margin: 0 10px; */
+.f-s-1,
+.f-s-2,
+.f-s-3 {
+	flex: 1 1 0px;
+	padding: 3.5em 2em 2em 3em;
+
+	/* margin: 0 10px; */
 }
 
 
@@ -2127,20 +2155,22 @@ button:hover:active:after,
 	/* padding: 3.5em 2em 2em 7em; */
 
 	border-top: solid 1px rgba(255, 255, 255, 0.15);
-	 border-left: solid 1px rgba(255, 255, 255, 0.15);
+	border-left: solid 1px rgba(255, 255, 255, 0.15);
 	position: relative;
 }
 
 .features section:nth-child(-n + 1) {
 
-	border-left-width:0;
+	border-left-width: 0;
 
 }
+
 .features section:nth-child(-n + 2) {
 	border-top-width: 0;
 	/* border-left-width:0; */
 
 }
+
 .features section:nth-child(-n + 3) {
 	border-top-width: 0;
 	/* border-left-width:0; */
@@ -4066,14 +4096,14 @@ body.is-preload #sidebar nav ul li {
 
 .skill-icon i {
 	display: inline-block;
-	font-size: 80px;
+	font-size: 60px;
 	/* padding: 10px; */
 }
 
 
 #skill-img {
-	height: 80px;
-	width: 80px;
+	height: 60px;
+	width: 60px;
 	/* display: inline-block;
 			width: 80px;
 			/* position: relative; */
@@ -4089,7 +4119,7 @@ body.is-preload #sidebar nav ul li {
 	margin-top: 2em;
 	flex-wrap: wrap;
 	list-style-type: none;
-	gap: 20px;
+	gap: 10px;
 	min-width: 60vw;
 }
 
@@ -4128,8 +4158,48 @@ body.is-preload #sidebar nav ul li {
 }
 
 
+/* Section 2 */
+
+#two {
+	display: flex;
+	flex-direction: column;
+	/*
+	background-color: #953d75; */
+	min-width: 60vw;
+}
+
+.project-container {
+	display: flex;
+	flex-direction: column;
+	padding-left: 5em;
+	gap: 3em;
+}
+
+.project {
+	display: flex;
+	width: 95%;
+	gap: 3em;
+	align-items: center;
+}
 
 
+.image img {
+	width: 35vw;
+	height: 50vh;
+}
 
+
+/* For the images inside the sections to occupy full width */
 
 /* Icons */
+
+#get-touch img {
+	width: 100%;
+	height: 50%;
+}
+
+#get-touch {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}

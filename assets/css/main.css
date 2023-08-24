@@ -2145,10 +2145,10 @@ button:hover:active:after,
 .f-s-2,
 .f-s-3,
 .f-s-4{
-	flex: 1 1 0px;
+    flex: 1 1 0px;
     flex-basis: calc(40% - 20px); 
     padding: 3.5em 2em 2em 3em;
-	/* margin: 0 10px; */
+      /* margin: 0 10px; */
 }
 
 

@@ -2144,9 +2144,10 @@ button:hover:active:after,
 .f-s-1,
 .f-s-2,
 .f-s-3,
-.f-s-4{
+.f-s-4,
+.f-s-5{
     flex: 1 1 0px;
-    flex-basis: calc(40% - 20px); 
+    /* flex-basis: calc(40% - 20px);  */
     padding: 3.5em 2em 2em 3em;
       /* margin: 0 10px; */
 }
@@ -2172,12 +2173,12 @@ button:hover:active:after,
 	/* border-left-width:0; */
 
 }
-
-/* .features section:nth-child(-n + 3) {
+/* 
+.features section:nth-child(-n + 3) {
 	border-top-width: 0;
-	/* border-left-width:0; */
+	border-left-width:0;
 
-/* } */ */
+} */
 
 
 /* .features section:nth-child(2n) {
